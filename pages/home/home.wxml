@@ -1,2 +1,13 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello Word</text>
+
+<!-- 1.小程序数据绑定 -->
+<view>Hello {{name}}</view>
+ 
+<!-- 2.列表展示 -->
+<view wx:for="{{students}}" wx:key="index">{{item.name}}</view>
+
+<!-- 3.事件监听 -->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="decrement">-</button>
+<button size="mini" bindtap="increment">+</button>
+

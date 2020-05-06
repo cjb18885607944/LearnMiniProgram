@@ -1,5 +1,33 @@
 {
   "pages": [
-    "pages/home/home"
-  ]
+    "pages/home/home",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "渠",
+    "backgroundColor": "#444",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/tabbar/profile.png",
+        "selectedIconPath": "assets/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap67.json"
 }
