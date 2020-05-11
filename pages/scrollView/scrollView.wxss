@@ -1,0 +1,22 @@
+/* pages/scrollView/scrollView.wxss */
+.containerX{
+  background-color: skyblue;
+  white-space: nowrap;
+}
+.itemX{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  display: inline-block;
+}
+
+.containerY{
+  background-color: slategrey;
+  height: 200px;
+}
+.itemY{
+  background-color: salmon;
+  margin: 10px;
+  height: 100px;
+}

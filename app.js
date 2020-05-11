@@ -13,5 +13,9 @@ App({
   },
   onError (msg) {
     console.log(msg)
+  },
+  globalData:{
+    name:'cuishushu',
+    age:18
   }
 })

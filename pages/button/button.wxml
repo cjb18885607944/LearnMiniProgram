@@ -1,0 +1,25 @@
+<!-- button -->
+<button>按钮</button>
+<!-- size:mini是行内块元素 -->
+<button size="mini">按钮</button>
+<!-- type -->
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<!-- plain镂空效果 -->
+<button plain size="mini" type="warn">按钮</button>
+<!-- disable不可用 -->
+<button disabled plain size="mini" type="warn">按钮</button>
+<!-- loading -->
+<button loading size="mini" type="warn">按钮</button>
+<!-- hover-class -->
+<button hover-class="pressed">按钮</button>
+<!-- open-type : contact , share , getPhoneNumber , GetUserInfo -->
+<button open-type="contact" bindcontact="onContcat">客服会话</button>
+<button open-type="share">程序分享</button>
+<button open-type="getPhoneNumber" bindGetPhoneNumber="onGetPhoneNumber">获取电话</button>
+<button open-type="getUserInfo" bindcontact="onGetUserInfo">用户信息</button>
+
+
+
+

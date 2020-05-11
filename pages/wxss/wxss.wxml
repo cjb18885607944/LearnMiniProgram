@@ -1,0 +1,9 @@
+<view>ahhhhhhh</view>
+<!-- 设置样式的三种方式：行内；外联；全局 -->
+
+<!-- wxss中的单位rpx   能自动适配的单位   在iphone6上，1px == 2rpx -->
+
+<!-- 导入css文件，用@import -->
+
+<!-- wx:for -->
+

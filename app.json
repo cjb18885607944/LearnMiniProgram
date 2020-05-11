@@ -1,7 +1,14 @@
 {
   "pages": [
+    "pages/wxss/wxss",
     "pages/home/home",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/text/text",
+    "pages/button/button",
+    "pages/view_unit/view_unit",
+    "pages/image/image",
+    "pages/input/input",
+    "pages/scrollView/scrollView"
   ],
   "window": {
     "navigationBarBackgroundColor": "#333",

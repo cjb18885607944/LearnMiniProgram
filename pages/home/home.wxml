@@ -11,3 +11,14 @@
 <button size="mini" bindtap="decrement">-</button>
 <button size="mini" bindtap="increment">+</button>
 
+<!-- 获取授权 -->
+<button 
+        size="mini" 
+        open-type="getUserInfo" 
+        bindgetuserinfo="handleGetUserInfo"
+        >获取授权
+        </button>
+
+<!-- 显示用户信息 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>

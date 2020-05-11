@@ -1,0 +1,20 @@
+<!-- input -->
+<input/>
+
+<!-- value值 -->
+<input value="ahh"></input>
+
+<!-- type 键盘类型（文本/数字/身份证） -->
+<input type="text"/>
+
+<!-- password暗文 -->
+<!-- confirm-type键盘右下角文字 -->
+<!-- placeholder -->
+
+<!-- bindinput键盘输入时触发 -->
+<!-- bindfocue -->
+<!-- bindblur -->
+<input placeholder="事件"
+       bindinput="handleInput"
+       bindfocus="handleFocus"
+       bindblur="handleBlur"/>

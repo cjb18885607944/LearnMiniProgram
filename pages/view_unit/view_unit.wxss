@@ -1,0 +1,5 @@
+/* pages/view_unit/view_unit.wxss */
+.active{
+  background-color: red;
+  color: white;
+}

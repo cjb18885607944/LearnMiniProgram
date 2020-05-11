@@ -1,0 +1,13 @@
+<!-- view组件 块级元素，独占一行 -->
+<view>
+  <text>块级元素，独占一行</text>
+</view>
+<view>ahhhh</view>
+
+<!-- hover-class -->
+<view hover-class="active">hover-class</view>
+<!-- hover-stop-propagation阻止冒泡 -->
+<!-- <view hover-stop-propagation>阻止冒泡</view> -->
+<!-- hover-start-time -->
+<view hover-start-time="{{1000}}" hover-class="active">点击延迟时间</view>
+<view hover-stay-time="{{1000}}" hover-class="active">关闭延迟时间</view>

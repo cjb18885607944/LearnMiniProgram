@@ -1,0 +1,13 @@
+<!-- 内置组件 -->
+
+<!-- text组件用于显示文本，类似span，是行内元素 -->
+<text>hello~</text>
+<!-- selectable文字是否可选中，默认false -->
+<text selectable="{{true}}">miniProgram \n</text>
+<!-- space决定空格的大小 默认nbsp-->
+<text space="nbsp">hello word\n</text>
+<text space="ensp">hello word\n</text>
+<text space="emsp">hello word\n</text>
+<!-- decode是否解码文本 -->
+<text>5 &gt; 3 \n</text>
+<text decode>5 &gt; 3</text>
